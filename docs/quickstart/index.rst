@@ -68,7 +68,7 @@ Create the virtual environment, activate it and enter the Lemur's directory:
 
     su lemur
     virtualenv -p python3 lemur
-    source /www/lemur/bin/activate
+    . /www/lemur/bin/activate
     cd lemur
 
 .. note:: Activating the environment adjusts your PATH, so that things like pip now install into the virtualenv by default.
